@@ -8,4 +8,5 @@ setup(
     entry_points={"pytest11": ["failfaster = failfaster.plugin"]},
     # custom PyPI classifier for pytest plugins
     classifiers=["Framework :: Pytest"],
+    requires=['pytest', 'requests']
 )

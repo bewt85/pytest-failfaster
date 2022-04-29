@@ -3,7 +3,7 @@ import subprocess
 
 from typing import List
 
-def commits() -> List[str]:
+def get_commits() -> List[str]:
     """
     Returns a list of commits, most recent first
     """
